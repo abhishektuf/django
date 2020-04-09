@@ -1,2 +1,2 @@
 FROM ubuntu
-CMD ["ping","google.com"]
+CMD ["sleep","3600"]
