@@ -5,5 +5,5 @@ RUN  pip install -r requirements.txt
 EXPOSE 8080
 #COPY mysite/entrypoint.sh /usr/local/bin/
 #RUN chmod +x /usr/local/bin/entrypoint.sh
-CMD ["python","manage.py","runserver","0.0.0.0:8080]
+CMD ["python","manage.py","runserver","0.0.0.0:8080"]
 
